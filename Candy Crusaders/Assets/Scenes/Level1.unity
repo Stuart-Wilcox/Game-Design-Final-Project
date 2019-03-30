@@ -2160,7 +2160,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457654536}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.1262357}
+  m_LocalPosition: {x: 0, y: 1.05, z: -0.1262357}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1217549252}
@@ -2256,7 +2256,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906355556}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.1262357}
+  m_LocalPosition: {x: 1.02, y: 0, z: -0.1262357}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1643697797}
@@ -2325,7 +2325,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -2465,6 +2465,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HealthBar
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922528151487948063, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922528151487948063, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e43e108679b978843acf03cc651ef022, type: 3}
@@ -2872,15 +2882,15 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: -0
-    y: 0.1
+    x: 0
+    y: 0
     width: 1
     height: 1
   near clip plane: 1
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3078,6 +3088,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6922528151487948063, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922528151487948063, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e43e108679b978843acf03cc651ef022, type: 3}
 --- !u!1001 &1473790141
@@ -3167,6 +3187,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HealthBar
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922528151487948063, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922528151487948063, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e43e108679b978843acf03cc651ef022, type: 3}
@@ -3660,6 +3690,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6922528151487948063, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922528151487948063, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e43e108679b978843acf03cc651ef022, type: 3}
 --- !u!1 &1811763830
@@ -3986,6 +4026,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6922528151487948063, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922528151487948063, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e43e108679b978843acf03cc651ef022, type: 3}
 --- !u!1001 &7046146962058080997
@@ -4069,6 +4119,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HealthBar
+      objectReference: {fileID: 0}
+    - target: {fileID: 2817045929186534158, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016683135803661613, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2094874721309815199, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922528151487948063, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922528151487948063, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922528151487948063, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922528151487948063, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922528151487948063, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e43e108679b978843acf03cc651ef022, type: 3}

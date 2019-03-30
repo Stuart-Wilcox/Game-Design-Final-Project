@@ -48,6 +48,8 @@ public class GameController : MonoBehaviour
 
     public void Start()
     {
+        Screen.orientation = ScreenOrientation.LandscapeRight;
+
         // game is on
         isGameOver = false;
 
