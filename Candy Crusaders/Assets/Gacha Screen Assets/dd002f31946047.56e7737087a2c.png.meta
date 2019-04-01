@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: 4bf0626d254894a97a88b5e85260d7b7
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dd002f31946047.56e7737087a2c_0
+    21300002: dd002f31946047.56e7737087a2c_1
+    21300004: dd002f31946047.56e7737087a2c_2
+    21300006: dd002f31946047.56e7737087a2c_3
+    21300008: dd002f31946047.56e7737087a2c_4
+    21300010: dd002f31946047.56e7737087a2c_5
+    21300012: dd002f31946047.56e7737087a2c_6
+    21300014: dd002f31946047.56e7737087a2c_7
+    21300016: dd002f31946047.56e7737087a2c_8
+    21300018: dd002f31946047.56e7737087a2c_9
+    21300020: dd002f31946047.56e7737087a2c_10
+    21300022: dd002f31946047.56e7737087a2c_11
+    21300024: dd002f31946047.56e7737087a2c_12
+    21300026: dd002f31946047.56e7737087a2c_13
+    21300028: dd002f31946047.56e7737087a2c_14
+    21300030: dd002f31946047.56e7737087a2c_15
+    21300032: dd002f31946047.56e7737087a2c_16
+    21300034: dd002f31946047.56e7737087a2c_17
+    21300036: dd002f31946047.56e7737087a2c_18
+    21300038: dd002f31946047.56e7737087a2c_19
+    21300040: dd002f31946047.56e7737087a2c_20
+    21300042: dd002f31946047.56e7737087a2c_21
+    21300044: dd002f31946047.56e7737087a2c_22
+    21300046: dd002f31946047.56e7737087a2c_23
+    21300048: dd002f31946047.56e7737087a2c_24
+    21300050: dd002f31946047.56e7737087a2c_25
+    21300052: dd002f31946047.56e7737087a2c_26
+    21300054: dd002f31946047.56e7737087a2c_27
+    21300056: dd002f31946047.56e7737087a2c_28
+    21300058: dd002f31946047.56e7737087a2c_29
+    21300060: dd002f31946047.56e7737087a2c_30
+    21300062: dd002f31946047.56e7737087a2c_31
+    21300064: dd002f31946047.56e7737087a2c_32
+    21300066: dd002f31946047.56e7737087a2c_33
+    21300068: dd002f31946047.56e7737087a2c_34
+    21300070: dd002f31946047.56e7737087a2c_35
+    21300072: dd002f31946047.56e7737087a2c_36
+    21300074: dd002f31946047.56e7737087a2c_37
+    21300076: dd002f31946047.56e7737087a2c_38
+    21300078: dd002f31946047.56e7737087a2c_39
+    21300080: dd002f31946047.56e7737087a2c_40
+    21300082: dd002f31946047.56e7737087a2c_41
+    21300084: dd002f31946047.56e7737087a2c_42
+    21300086: dd002f31946047.56e7737087a2c_43
+    21300088: dd002f31946047.56e7737087a2c_44
+    21300090: dd002f31946047.56e7737087a2c_45
+    21300092: dd002f31946047.56e7737087a2c_46
+    21300094: dd002f31946047.56e7737087a2c_47
+    21300096: dd002f31946047.56e7737087a2c_48
+    21300098: dd002f31946047.56e7737087a2c_49
+    21300100: dd002f31946047.56e7737087a2c_50
+    21300102: dd002f31946047.56e7737087a2c_51
+    21300104: dd002f31946047.56e7737087a2c_52
+    21300106: dd002f31946047.56e7737087a2c_53
+    21300108: dd002f31946047.56e7737087a2c_54
+    21300110: dd002f31946047.56e7737087a2c_55
+    21300112: dd002f31946047.56e7737087a2c_56
+    21300114: dd002f31946047.56e7737087a2c_57
+    21300116: dd002f31946047.56e7737087a2c_58
+    21300118: dd002f31946047.56e7737087a2c_59
+    21300120: dd002f31946047.56e7737087a2c_60
+    21300122: dd002f31946047.56e7737087a2c_61
+    21300124: dd002f31946047.56e7737087a2c_62
+    21300126: dd002f31946047.56e7737087a2c_63
+    21300128: dd002f31946047.56e7737087a2c_64
+    21300130: dd002f31946047.56e7737087a2c_65
+    21300132: dd002f31946047.56e7737087a2c_66
+    21300134: dd002f31946047.56e7737087a2c_67
+    21300136: dd002f31946047.56e7737087a2c_68
+    21300138: dd002f31946047.56e7737087a2c_69
+    21300140: dd002f31946047.56e7737087a2c_70
+    21300142: dd002f31946047.56e7737087a2c_71
+    21300144: dd002f31946047.56e7737087a2c_72
+    21300146: dd002f31946047.56e7737087a2c_73
+    21300148: dd002f31946047.56e7737087a2c_74
+    21300150: dd002f31946047.56e7737087a2c_75
+    21300152: dd002f31946047.56e7737087a2c_76
+    21300154: dd002f31946047.56e7737087a2c_77
+    21300156: dd002f31946047.56e7737087a2c_78
+    21300158: dd002f31946047.56e7737087a2c_79
+    21300160: dd002f31946047.56e7737087a2c_80
+    21300162: dd002f31946047.56e7737087a2c_81
+    21300164: dd002f31946047.56e7737087a2c_82
+    21300166: dd002f31946047.56e7737087a2c_83
+    21300168: dd002f31946047.56e7737087a2c_84
+    21300170: dd002f31946047.56e7737087a2c_85
+    21300172: dd002f31946047.56e7737087a2c_86
+    21300174: dd002f31946047.56e7737087a2c_87
+    21300176: dd002f31946047.56e7737087a2c_88
+    21300178: dd002f31946047.56e7737087a2c_89
+    21300180: dd002f31946047.56e7737087a2c_90
+    21300182: dd002f31946047.56e7737087a2c_91
+    21300184: dd002f31946047.56e7737087a2c_92
+    21300186: dd002f31946047.56e7737087a2c_93
+    21300188: dd002f31946047.56e7737087a2c_94
+    21300190: dd002f31946047.56e7737087a2c_95
+    21300192: dd002f31946047.56e7737087a2c_96
+    21300194: dd002f31946047.56e7737087a2c_97
+    21300196: dd002f31946047.56e7737087a2c_98
+    21300198: dd002f31946047.56e7737087a2c_99
+    21300200: dd002f31946047.56e7737087a2c_100
+    21300202: dd002f31946047.56e7737087a2c_101
+    21300204: dd002f31946047.56e7737087a2c_102
+    21300206: dd002f31946047.56e7737087a2c_103
+    21300208: dd002f31946047.56e7737087a2c_104
+    21300210: dd002f31946047.56e7737087a2c_105
+    21300212: dd002f31946047.56e7737087a2c_106
+    21300214: dd002f31946047.56e7737087a2c_107
+    21300216: dd002f31946047.56e7737087a2c_108
+    21300218: dd002f31946047.56e7737087a2c_109
+    21300220: dd002f31946047.56e7737087a2c_110
+    21300222: dd002f31946047.56e7737087a2c_111
+    21300224: dd002f31946047.56e7737087a2c_112
+    21300226: dd002f31946047.56e7737087a2c_113
+    21300228: dd002f31946047.56e7737087a2c_114
+    21300230: dd002f31946047.56e7737087a2c_115
+    21300232: dd002f31946047.56e7737087a2c_116
+    21300234: dd002f31946047.56e7737087a2c_117
+    21300236: dd002f31946047.56e7737087a2c_118
+    21300238: dd002f31946047.56e7737087a2c_119
+    21300240: dd002f31946047.56e7737087a2c_120
+    21300242: dd002f31946047.56e7737087a2c_121
+    21300244: dd002f31946047.56e7737087a2c_122
+    21300246: dd002f31946047.56e7737087a2c_123
+    21300248: dd002f31946047.56e7737087a2c_124
+    21300250: dd002f31946047.56e7737087a2c_125
+    21300252: dd002f31946047.56e7737087a2c_126
+    21300254: dd002f31946047.56e7737087a2c_127
+    21300256: dd002f31946047.56e7737087a2c_128
+    21300258: dd002f31946047.56e7737087a2c_129
+    21300260: dd002f31946047.56e7737087a2c_130
+    21300262: dd002f31946047.56e7737087a2c_131
+    21300264: dd002f31946047.56e7737087a2c_132
+    21300266: dd002f31946047.56e7737087a2c_133
+    21300268: dd002f31946047.56e7737087a2c_134
+    21300270: dd002f31946047.56e7737087a2c_135
+    21300272: dd002f31946047.56e7737087a2c_136
+    21300274: dd002f31946047.56e7737087a2c_137
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dd002f31946047.56e7737087a2c_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1502
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eba0310182f24840a60b1c641cf2627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd002f31946047.56e7737087a2c_1
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1501
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fb4a4d5b39e4db78ab1a43ecb5ddf4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd002f31946047.56e7737087a2c_2
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1505
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1f31a4df4924f4c8e1b24d06c572e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd002f31946047.56e7737087a2c_3
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1503
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fef7d1603d04eeb927db52c94da22c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd002f31946047.56e7737087a2c_4
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1508
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb51d9f505ea487083ccb92748bbf90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dd002f31946047.56e7737087a2c_5
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1508
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56438a2f9b720495ab9e061343edf31f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ba902d2bfe5244c7f8e58a3dcf1bcd34
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
