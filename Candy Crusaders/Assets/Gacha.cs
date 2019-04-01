@@ -11,11 +11,11 @@ public class Gacha : MonoBehaviour
     private void Start()
     {
         allunits = new GameObject[4];
-        allunits[0] = GameObject.Find("King Werther");
-        allunits[1] = GameObject.Find("Lolipop Knight");
-        allunits[2] = GameObject.Find("Cupcake Witch");
-        allunits[3] = GameObject.Find("Toffee Knight");
-        for(int i=0; i<4; i++)
+        allunits[0] = GameObject.Find("Lolipop Knight");
+        allunits[1] = GameObject.Find("Cupcake Witch");
+        allunits[2] = GameObject.Find("Sweetheart Mage");
+        allunits[3] = GameObject.Find("King Werther");
+        for (int i=0; i<4; i++)
         {
             allunits[i].SetActive(false);
         }
@@ -24,6 +24,23 @@ public class Gacha : MonoBehaviour
 
     public void Clicktest()
     {
-        allunits[0].SetActive(true);
+        int n = Random.Range(0, 10);
+        if (n < 3)
+        {
+            allunits[0].SetActive(true);
+        }
+        else if (n < 6)
+        {
+            allunits[1].SetActive(true);
+        }
+        else if (n < 9)
+        {
+            allunits[2].SetActive(true);
+        }
+        else
+        {
+            allunits[3].SetActive(true);
+        }
     }
+
 }
