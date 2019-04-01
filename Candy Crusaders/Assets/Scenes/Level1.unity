@@ -3098,6 +3098,11 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2817045929186534158, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e43e108679b978843acf03cc651ef022, type: 3}
 --- !u!1001 &1473790141
@@ -3700,6 +3705,11 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2817045929186534158, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e43e108679b978843acf03cc651ef022, type: 3}
 --- !u!1 &1811763830
@@ -4036,6 +4046,11 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2817045929186534158, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e43e108679b978843acf03cc651ef022, type: 3}
 --- !u!1001 &7046146962058080997
@@ -4120,21 +4135,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthBar
       objectReference: {fileID: 0}
-    - target: {fileID: 2817045929186534158, guid: e43e108679b978843acf03cc651ef022,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3016683135803661613, guid: e43e108679b978843acf03cc651ef022,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2094874721309815199, guid: e43e108679b978843acf03cc651ef022,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6922528151487948063, guid: e43e108679b978843acf03cc651ef022,
         type: 3}
       propertyPath: m_Color.r
@@ -4159,6 +4159,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2817045929186534158, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016683135803661613, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2094874721309815199, guid: e43e108679b978843acf03cc651ef022,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e43e108679b978843acf03cc651ef022, type: 3}
