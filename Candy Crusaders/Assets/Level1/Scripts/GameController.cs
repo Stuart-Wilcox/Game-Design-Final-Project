@@ -25,6 +25,9 @@ public class GameController : MonoBehaviour
     public Transform red;
     public Transform grey;
 
+    private AudioSource attackSource;
+    private AudioSource deathSoundSource;
+
     // text to display on win
     public Text winText;
 
@@ -81,9 +84,13 @@ public class GameController : MonoBehaviour
             enemyPlayers[i].isActive = true;
         }
 
+        var audioComponents = GetComponents<AudioSource>();
+        attackSource = audioComponents[0];
+        deathSoundSource = audioComponents[1];
+
         // instantiate services
         moveService = new MoveService(userPlayers, enemyPlayers, green, red);
-        attackService = new AttackService(userPlayers, enemyPlayers);
+        attackService = new AttackService(userPlayers, enemyPlayers, attackSource);
 
         // get reference to controller
         enemyControllers = new List<EnemyController>();
@@ -284,6 +291,7 @@ public class GameController : MonoBehaviour
                 // remove the dead from the scene
                 Destroy(users[i].gameObject);
                 userPlayers[i].isActive = false;
+                deathSoundSource.Play();
             }
         }
 
@@ -294,6 +302,7 @@ public class GameController : MonoBehaviour
                 // remove the dead from the scene
                 Destroy(enemies[i].gameObject);
                 enemyPlayers[i].isActive = false;
+                deathSoundSource.Play();
             }
         }
     }
