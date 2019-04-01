@@ -360,7 +360,7 @@ public class GameController : MonoBehaviour
             this.winText.text = winner + " Wins!";
 
             // the level is now over, so handle returning to overworld here and saving level state
-            // TODO
+            StartCoroutine(this.LoadLevelSelectorScene());
         }
     }
 
@@ -388,5 +388,11 @@ public class GameController : MonoBehaviour
         }
 
         return true;
+    }
+
+    private IEnumerator LoadLevelSelectorScene()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(1);
     }
 }
