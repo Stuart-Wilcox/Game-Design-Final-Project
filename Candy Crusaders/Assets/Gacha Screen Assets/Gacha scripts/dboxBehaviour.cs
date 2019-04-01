@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class dboxBehaviour : MonoBehaviour
 {
+    private GameObject unit;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,7 @@ public class dboxBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        unit = GameObject.FindGameObjectWithTag("0");
+        unit.SetActive(true);
     }
 }
