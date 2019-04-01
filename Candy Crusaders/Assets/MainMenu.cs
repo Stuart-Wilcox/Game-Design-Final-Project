@@ -20,14 +20,9 @@ public class MainMenu : MonoBehaviour
     public void Gacha()
     {
         Debug.Log("Gacha");
-        SceneManager.LoadScene("Gacha");
+        SceneManager.LoadScene("Assets/Scenes/Gacha.unity");
     }
 
-    public void Events()
-    {
-        Debug.Log("Events");
-        SceneManager.LoadScene("Events");
-    }
 
     //exit the game
     public void QuitGame()
