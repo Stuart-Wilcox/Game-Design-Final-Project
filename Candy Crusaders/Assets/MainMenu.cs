@@ -20,7 +20,7 @@ public class MainMenu : MonoBehaviour
     public void Gacha()
     {
         Debug.Log("Gacha");
-        SceneManager.LoadScene("Gacha");
+        SceneManager.LoadScene("Assets/Scenes/Gacha.unity");
     }
 
 
