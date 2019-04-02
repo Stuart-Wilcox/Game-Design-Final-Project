@@ -40,10 +40,17 @@ When you navigate to the gacha screen, you can click on the orbs to have a chanc
 ## Code Source
 
 Overworld Screen: https://assetstore.unity.com/packages/tools/gui/level-selection-system-18849
+Used as reference: https://www.youtube.com/watch?v=ryISV_nH8qw
 
 ## Image Source
 
 Image for logo: https://www.flaticon.com/free-icon/wrapped-candy_82110 
+
+https://candycrush.fandom.com/wiki/Mr._Toffee
+https://lol.gamepedia.com/File:Ivern_1.jpg
+https://lol.gamepedia.com/File:Poppy_2.jpg
+https://lol.gamepedia.com/File:Annie_9.jpg
+
 
 ## Music Source
 
