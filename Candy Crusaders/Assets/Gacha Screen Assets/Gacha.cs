@@ -10,6 +10,7 @@ public class Gacha : MonoBehaviour
     private GameObject[] allunits;
 
     public PlayerData playerData;
+    public Text currencyText;
 
     private void Start()
     {
@@ -47,5 +48,6 @@ public class Gacha : MonoBehaviour
         }
 
         playerData.currency -= playerData.summonCost;
+        currencyText.text = $"Currency: {playerData.currency}";
     }
 }
