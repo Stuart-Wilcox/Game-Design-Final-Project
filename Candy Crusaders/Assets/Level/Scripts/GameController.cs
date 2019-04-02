@@ -465,6 +465,7 @@ public class GameController : MonoBehaviour
     private IEnumerator LoadLevelSelectorScene()
     {
         yield return new WaitForSeconds(1);
+        Screen.orientation = ScreenOrientation.Portrait;
         SceneManager.LoadScene(1);
     }
 }
