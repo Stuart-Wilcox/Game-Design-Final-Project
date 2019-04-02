@@ -13,6 +13,9 @@ public class Character : ScriptableObject
     public bool isActive;
 
     [SerializeField]
+    public Sprite sprite;
+
+    [SerializeField]
     public int maxHp;
 
     [SerializeField]

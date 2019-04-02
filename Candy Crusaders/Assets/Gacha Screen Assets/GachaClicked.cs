@@ -13,7 +13,7 @@ public class GachaClicked : MonoBehaviour
 
     void Start()
     {
-        confirmSummonImg = transform.Find("RawImage").gameObject;
+        confirmSummonImg = transform.Find("Dialogue Box").gameObject;
         notEnoughCurrencyImg = transform.Find("NotEnoughCurrency").gameObject;
 
         buttons = new List<Button>();
