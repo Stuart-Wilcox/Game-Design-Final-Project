@@ -9,6 +9,10 @@ public class PlayerController : MonoBehaviour
     public void Start()
     {
         this.SetPosition();
+
+
+        SpriteRenderer renderer = transform.GetChild(0).GetComponent<SpriteRenderer>();
+        renderer.sprite = character.sprite;
     }
 
     public void Update()
