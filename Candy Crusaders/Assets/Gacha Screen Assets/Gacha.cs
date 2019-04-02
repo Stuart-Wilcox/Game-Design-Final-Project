@@ -24,6 +24,7 @@ public class Gacha : MonoBehaviour
         {
             allunits[i].SetActive(false);
         }
+        
 
     }
 
