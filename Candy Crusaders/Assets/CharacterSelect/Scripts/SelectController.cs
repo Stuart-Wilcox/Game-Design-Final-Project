@@ -22,7 +22,7 @@ public class SelectController : MonoBehaviour
         foreach (Character character in this.player.characters)
         {
             this.CreateCharacterSelect(character, offset);
-            offset -= 40;
+            offset -= 200;
         }
         
     }
