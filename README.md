@@ -3,7 +3,7 @@
 Built on Unity 2018.3.6, Unity 2018.3.10, and Unity 2018.3.11.
 
 ## How to install
-To install Candy-Crusaders: You can move the apk to your android/(IOS?) device, or you can clone and build from Unity.
+To install Candy-Crusaders: You can move the apk to your android/IOS device, or you can clone and build from Unity.
 If you decide to clone from our repository you need the Android SDK installed. Get it [here](https://developer.android.com/studio#downloads "Android Studio").
 
 git clone https://github.com/Stuart-Wilcox/Candy-Crusaders.git
