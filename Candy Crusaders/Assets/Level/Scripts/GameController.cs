@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,19 +12,23 @@ public class GameController : MonoBehaviour
     public Vector2[] playerStartingPositions;
     public Vector2[] enemyStartingPositions;
 
+    public Player player;
+
     // stats for each of the players
-    public Character[] userPlayers;
+    private Character[] userPlayers;
     public Character[] enemyPlayers;
 
     // transforms of the players
-    public Transform[] users;
-    public Transform[] enemies;
+    private List<Transform> users = new List<Transform>();
+    private List<Transform> enemies = new List<Transform>();
 
     // misc needed transforms
     public Grid grid;
     public Transform green;
     public Transform red;
     public Transform grey;
+    public Transform playerController;
+    public Transform enemyController;
 
     private AudioSource attackSource;
     private AudioSource deathSoundSource;
@@ -59,6 +64,12 @@ public class GameController : MonoBehaviour
         // player goes first
         isPlayersTurn = true;
         greyTiles = new List<Transform>();
+
+        this.userPlayers = this.player.activeCharacters;
+
+        this.InstantiateUserPlayers();
+        this.InstantiateEnemyPlayers();
+
         userPlayerHasMoved = new List<bool>();
         for(int i = 0; i < userPlayers.Length; i++)
         {
@@ -152,6 +163,30 @@ public class GameController : MonoBehaviour
         }
     }
 
+    private void InstantiateUserPlayers()
+    {
+        foreach(Character userPlayer in userPlayers)
+        {
+            Transform transform = Instantiate(playerController);
+            transform.GetComponent<PlayerController>().character = userPlayer;
+            transform.GetChild(1).GetComponent<HealthBarController>().character = userPlayer;
+
+            users.Add(transform);
+        }
+    }
+
+    private void InstantiateEnemyPlayers()
+    {
+        foreach(Character enemyPlayer in enemyPlayers)
+        {
+            Transform transform = Instantiate(enemyController);
+            transform.GetComponent<EnemyController>().character = enemyPlayer;
+            transform.GetChild(1).GetComponent<HealthBarController>().character = enemyPlayer;
+
+            enemies.Add(transform);
+        }
+    }
+
     public void EndTurn()
     {
         if (isGameOver) return;
@@ -236,7 +271,14 @@ public class GameController : MonoBehaviour
         if (turn.isMove)
         {
             // move if needed
-            moveService.MoveEnemy(enemyIndex, turn.movePosition);
+            try
+            {
+                moveService.MoveEnemy(enemyIndex, turn.movePosition);
+            }
+            catch(Exception e)
+            {
+                return;
+            }
         }
         else if (turn.isAttack)
         {
@@ -247,8 +289,16 @@ public class GameController : MonoBehaviour
                 Debug.Log("Player not found! Unable to attack...");
                 return;
             }
-            
-            Vector2 beside = moveService.CalculateEnemyAttackPosition(characterIndex, enemyIndex);
+
+            Vector2 beside;
+            try
+            {
+                beside = moveService.CalculateEnemyAttackPosition(characterIndex, enemyIndex);
+            }
+            catch(Exception e)
+            {
+                return;
+            }
 
             if(beside.x == -1 && beside.y == -1)
             {
@@ -256,8 +306,15 @@ public class GameController : MonoBehaviour
                 return;
             }
 
-            moveService.MoveEnemy(enemyIndex, beside); // move the enemy beside the player
-            attackService.EnemyAttack(characterIndex, enemyIndex); // perform the attack
+            try
+            {
+                moveService.MoveEnemy(enemyIndex, beside); // move the enemy beside the player
+                attackService.EnemyAttack(characterIndex, enemyIndex); // perform the attack
+            }
+            catch(Exception e)
+            {
+                return;
+            }
         }
     }
 
