@@ -445,7 +445,7 @@ public class GameController : MonoBehaviour
                 return false;
             }
         }
-
+        player.finished[sceneBuildIndex] = true;
         return true;
     }
 

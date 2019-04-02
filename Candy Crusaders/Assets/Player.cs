@@ -15,5 +15,6 @@ public class Player : ScriptableObject
     public int activeLevel;
 
     [SerializeField]
-    public bool[] unlocked;
+    public bool[] finished;
+
 }
