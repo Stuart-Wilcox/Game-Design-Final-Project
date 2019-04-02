@@ -94,7 +94,14 @@ public class LevelSelectionLogic : MonoBehaviour {
 			}
 			touchTime = 0;
 		}
-	}
+        
+        //Go back to main menu
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Assets/InteractiveMobileMenu/Scenes/Menu.unity");
+        }
+        
+    }
 }
 
 //Level class;
