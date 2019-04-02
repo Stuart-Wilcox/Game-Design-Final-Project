@@ -15,10 +15,10 @@ If you cloned from our repository there will be a few more steps you must do.
   Open Unity and select the folder that you downloaded (default is "Candy-Crusader").
   Make sure all the scenes are in your build (CTRL+SHIFT+B or File>"Build Settings").
     Ensure these scenes are in your build: 
-      -InteractiveMobileMenu/Scenes/Menu
-      -InteractiveMobileMenu/Scenes/SelectLevel
-      -Scenes/Gacha
-      -Scenes/Level1
+...-InteractiveMobileMenu/Scenes/Menu
+...-InteractiveMobileMenu/Scenes/SelectLevel
+...-Scenes/Gacha
+...-Scenes/Level1
       
   Once this is done click "Build and Run". 
   If greyed out, exit "Build Settings" and either build from (CTRL+B or File>"Build and Run"). 
