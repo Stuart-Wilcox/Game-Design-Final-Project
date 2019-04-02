@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public Character[] players;
+    public Player player;
+
+    private Character[] players;
     public Character character;
 
 
@@ -12,6 +14,8 @@ public class EnemyController : MonoBehaviour
 
     public void Start()
     {
+        this.players = this.player.activeCharacters;
+
         this.SetPosition();
     }
 

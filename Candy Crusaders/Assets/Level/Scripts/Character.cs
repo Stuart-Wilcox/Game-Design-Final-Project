@@ -7,6 +7,9 @@ using UnityEngine;
 public class Character : ScriptableObject
 {
     [SerializeField]
+    public string name;
+
+    [SerializeField]
     public bool isActive;
 
     [SerializeField]
