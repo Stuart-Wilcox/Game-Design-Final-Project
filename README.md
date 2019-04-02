@@ -45,3 +45,7 @@ Overworld Screen: https://assetstore.unity.com/packages/tools/gui/level-selectio
 
 Image for logo: https://www.flaticon.com/free-icon/wrapped-candy_82110 
 
+## Music Source
+
+David Vitas RPG Music Pack: http://www.davidvitas.com/portfolio/2016/5/12/rpg-music-pack
+
