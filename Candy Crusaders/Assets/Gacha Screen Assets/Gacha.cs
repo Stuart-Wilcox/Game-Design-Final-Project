@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Gacha : MonoBehaviour
 {
     public GameObject unit;
     public GameObject specificUnit;
     private GameObject[] allunits;
+
+    public PlayerData playerData;
 
     private void Start()
     {
@@ -19,6 +22,7 @@ public class Gacha : MonoBehaviour
         {
             allunits[i].SetActive(false);
         }
+
     }
 
 
@@ -41,6 +45,7 @@ public class Gacha : MonoBehaviour
         {
             allunits[3].SetActive(true);
         }
-    }
 
+        playerData.currency -= playerData.summonCost;
+    }
 }

@@ -28,6 +28,11 @@ public class GameController : MonoBehaviour
     private AudioSource attackSource;
     private AudioSource deathSoundSource;
 
+    // value to increment player currency by each time an enemy dies
+    public int currencyIncrement;
+
+    public PlayerData playerData;
+
     // text to display on win
     public Text winText;
 
@@ -303,6 +308,7 @@ public class GameController : MonoBehaviour
                 Destroy(enemies[i].gameObject);
                 enemyPlayers[i].isActive = false;
                 deathSoundSource.Play();
+                playerData.currency += currencyIncrement;
             }
         }
     }
