@@ -5,15 +5,19 @@ using UnityEngine.SceneManagement;
 
 
 public class LevelSelectionLogic : MonoBehaviour {
+    public List<LevelList> levelList = new List<LevelList>(); //List of level class;
 
-	public List<LevelList> levelList = new List<LevelList>(); //List of level class;
-	private Vector2 touchPos;
+    public Player player;
+
+    private Vector2 touchPos;
 	private CameraControls cam; 		// Camera controls reference;
 	private float touchTime;			// How long touch time;
 	private float reactTime = 0.25F;		// Fixed touch time to level loading happens;
 
 	void Awake()
 	{
+        this.player = gameObject.GetComponent<PlayerHolder>().player;
+
 		cam = Camera.main.GetComponent<CameraControls>();
 
 		if(PlayerPrefs.HasKey("currentCamPos") && cam.cameraPosition == CameraControls.CameraPosition.SaveCurrent)
@@ -83,7 +87,8 @@ public class LevelSelectionLogic : MonoBehaviour {
 			{
 				if(levelList[i].unlocked && levelList[i].LevelObject.bounds.Contains(touchPos) && touchTime < reactTime)
 				{
-                    SceneManager.LoadScene("Assets/Scenes/Level"+ levelList[i].LevelIndex + ".unity");
+                    this.player.activeLevel = levelList[i].LevelIndex;
+                    SceneManager.LoadScene("Assets/Scenes/CharacterSelect.unity");
 					PlayerPrefsX.SetVector3("currentCamPos", cam.transform.position);
 				}
 			}
