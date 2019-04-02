@@ -1,0 +1,16 @@
+TODO GAME DESIGN: 
+
+	Get all working back buttons 
+	Link Character To main-menu
+	Update assets for the characters: MAINTAIN CONSISTENCY
+		- king wether 
+		- toffee knight
+		- choco Cavalier
+	For all screens 
+
+	Main-menu:
+		Change achievements to credits. 
+
+	Merge Ago's and Stu's code
+	Update README.md
+
