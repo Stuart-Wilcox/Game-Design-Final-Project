@@ -24,14 +24,14 @@ public class MainMenu : MonoBehaviour
     {
         Debug.Log("Characters");
         audioSource.Play();
-        SceneManager.LoadScene("Characters");
+        SceneManager.LoadScene("Assets/Scenes/CharacterInfo.unity");
     }
 
     public void Gacha()
     {
         Debug.Log("Gacha");
         audioSource.Play();
-        SceneManager.LoadScene("Gacha");
+        SceneManager.LoadScene("Assets/Scenes/Gacha.unity");
     }
 
 
