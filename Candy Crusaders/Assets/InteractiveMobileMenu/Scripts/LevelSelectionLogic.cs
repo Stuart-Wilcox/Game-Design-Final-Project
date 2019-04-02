@@ -13,6 +13,7 @@ public class LevelSelectionLogic : MonoBehaviour {
 	private CameraControls cam; 		// Camera controls reference;
 	private float touchTime;			// How long touch time;
 	private float reactTime = 0.25F;		// Fixed touch time to level loading happens;
+    private int numLevels = 5;
 
 	void Awake()
 	{
@@ -41,14 +42,20 @@ public class LevelSelectionLogic : MonoBehaviour {
 		for(int i = 0; i < levelList.Count; i++)
 		{
 			//draw stats depends on how much stars we gained;
-			if(levelList[i].isFinished)
+			if(levelList[i].isFinished|| player.finished[i])
 			{
-				if(levelList[i].starsCount == 1) levelList[i].Stats.sprite = levelList[i].levelSettings.OneStar;
-				if(levelList[i].starsCount == 2) levelList[i].Stats.sprite = levelList[i].levelSettings.TwoStars;
-				if(levelList[i].starsCount == 3) levelList[i].Stats.sprite = levelList[i].levelSettings.ThreeStars;
+                //if(levelList[i].starsCount == 1) levelList[i].Stats.sprite = levelList[i].levelSettings.OneStar;
+                //if(levelList[i].starsCount == 2) levelList[i].Stats.sprite = levelList[i].levelSettings.TwoStars;
+                //if(levelList[i].starsCount == 3) levelList[i].Stats.sprite = levelList[i].levelSettings.ThreeStars;
 
-				//unlock next level;
-				if(i+1 <= levelList.Count-1)
+                if (player.finished[i] == true)
+                {
+                    levelList[i].Stats.sprite = levelList[i].levelSettings.ThreeStars;
+                    
+                }
+
+                //unlock next level;
+                if (i+1 <= levelList.Count-1)
 				{
 					levelList[i+1].unlocked = true;
 					if(cam.cameraPosition == CameraControls.CameraPosition.WithNextLevel)
@@ -59,6 +66,7 @@ public class LevelSelectionLogic : MonoBehaviour {
 			//draw unlock level sprite if level is unlocked and conversely;
 			if(levelList[i].unlocked)
 			{
+                
 				levelList[i].Stats.gameObject.SetActive(true);
 				levelList[i].LevelObject.sprite = levelList[i].levelSettings.LevelUnlocked;
 			}
