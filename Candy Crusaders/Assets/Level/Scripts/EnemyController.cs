@@ -17,6 +17,9 @@ public class EnemyController : MonoBehaviour
         this.players = this.player.activeCharacters;
 
         this.SetPosition();
+
+        SpriteRenderer renderer = transform.GetChild(0).GetComponent<SpriteRenderer>();
+        renderer.sprite = character.sprite;
     }
 
     public void Update()
