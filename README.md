@@ -56,3 +56,4 @@ https://lol.gamepedia.com/File:Annie_9.jpg
 
 David Vitas RPG Music Pack: http://www.davidvitas.com/portfolio/2016/5/12/rpg-music-pack
 
+Sound effects for combat and menu were created with [sfxr](http://www.drpetter.se/project_sfxr.html).
