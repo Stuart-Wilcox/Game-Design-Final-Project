@@ -20,6 +20,9 @@ If you cloned from our repository there will be a few more steps you must do.
    InteractiveMobileMenu/Scenes/SelectLevel
    Scenes/Gacha
    Scenes/Level1
+   Scenes/Level2
+   Scenes/CharacterSelect
+   Scenes/CharacterInfo
       
   Once this is done click "Build and Run". 
   If greyed out, exit "Build Settings" and either build from (CTRL+B or File>"Build and Run"). 
@@ -33,7 +36,7 @@ At the main main you can:
 
 When you navigate to the campaign screen, you must unlock levels by completing the previous level. Once complete your progression should unlock. Here defeating enemies will unlock *CURRENCY so you can unlock a character. 
 
-When you navigate to the character screen, *
+When you navigate to the character screen, and click on the character to view the stats
 
 When you navigate to the gacha screen, you can click on the orbs to have a chance of unlocking more characters to aid you in battle and a chance at unlocking the rare "King Werther".
 
