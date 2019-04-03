@@ -41,7 +41,7 @@ At the main main you can:
   Navigate to the character screen to see which characters you have unlocked and see their stats. 
   Navigate to the gacha screen to unlock more characters.
 
-When you navigate to the campaign screen, you must unlock levels by completing the previous level. Once complete your progression should unlock. Here defeating enemies will unlock *CURRENCY so you can unlock a character. 
+When you navigate to the campaign screen, you must unlock levels by completing the previous level. (Drag sensitivity is high, sorry) When you select on a level, you will be prompted with the characters that you can choose. Once complete your progression should unlock. Here defeating enemies will unlock *CURRENCY so you can unlock a character. 
 
 When you navigate to the character screen, and click on the character to view the stats
 
