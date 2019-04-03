@@ -65,6 +65,10 @@ https://lol.gamepedia.com/File:Poppy_2.jpg
 
 https://lol.gamepedia.com/File:Annie_9.jpg
 
+https://alexpogeler.wordpress.com/2011/08/19/evil-candy-my-top-5/
+
+https://i.pinimg.com/474x/7f/ba/e2/7fbae201db2ea379b1ed60945b21436d--halloween-cartoons-halloween-images.jpg
+
 
 ## Music Source
 
